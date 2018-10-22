@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.spellmate"
+    android:versionCode="8"
+    android:versionName="2.6" >
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="18" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+     <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/icon"
+        android:label="@string/app_name"
+        android:theme="@android:style/Theme.NoTitleBar" >
+        <activity
+            android:name="com.spellmate.Splash"
+            android:label="@string/app_name"
+            android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.spellmate.MenuScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.InitialLevel"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.Beginner"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.NewGameScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.AboutUs"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.ResultScreen"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.Dictionary"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.spellmate.FreeDictionary"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait" >
+        </activity>
+    </application>
+
+</manifest>

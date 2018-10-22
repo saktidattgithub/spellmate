@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/menuback" >
+
+    <LinearLayout
+        android:id="@+id/linearLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="300dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:background="@drawable/text_area_bg"
+        android:orientation="vertical" >
+
+       <TextView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center_vertical"
+    android:layout_margin="7dp"
+    android:textColor="#ffffff"
+    android:textSize="16sp"
+    android:textStyle="bold"
+    android:text="Spellmate application a learning tool combines fun with learning.Spellmate game app and spellmate web-book has interesting and exhaustive wordlist to build vocabulary for academics or spelling contests,its suitable for students of all grade levels and ages.You can study whenever and wherever and never fear losing your lists and you can track your progress on your personalised dashboard."
+    />
+    </LinearLayout>
+
+    
+
+</RelativeLayout>
